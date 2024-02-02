@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block title %}
+{% load static %}
+<div class="ftco-blocks-cover-1">
+      <div class="ftco-cover-1 overlay" style="background-image: url('{% static 'images/contact.jpg' %}')">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 text-center">
+              <h1  data-aos="fade-up" data-aos-delay="0">Thank You</h1>
+              <p  data-aos="fade-up" data-aos-delay="100">Your message has been sent</p>
+              <p data-aos="fade-up" data-aos-delay="200"><a href="{% url 'index' %}" class="btn primary-outline-white--hover">Home</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock title %}
+{% block content %}
+
+
+{% endblock content %}
